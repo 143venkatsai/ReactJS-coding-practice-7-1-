@@ -1,0 +1,28 @@
+.list-element {
+  list-style: none;
+  width: 38%;
+  margin-right: 35px;
+  margin-bottom: 12px;
+}
+.button {
+  width: 145px;
+  padding: 6px;
+  color: #d4d2db;
+  background-color: #382f5a;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .button {
+    width: 130px;
+  }
+  .list-element {
+    width: 30%;
+    margin-bottom: 20px;
+    margin-right: 50px;
+  }
+}
